@@ -1,4 +1,5 @@
-import 'package:contador/home_page.dart';
+import 'package:contador/pages/home_page.dart';
+import 'package:contador/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: const LoginPage(),
     );
   }
 }
